@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/albumFragment">
+    <fragment
+        android:id="@+id/albumFragment"
+        android:name="com.example.expmdmfebrero.feature.album.presentation.AlbumFragment"
+        android:label="AlbumFragment">
+        <action
+            android:id="@+id/action_albumFragment_to_mushroomFragment"
+            app:destination="@id/mushroomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mushroomFragment"
+        android:name="com.example.expmdmfebrero.feature.mushroom.presentation.MushroomFragment">
+        <argument
+            android:name="albumName"
+            app:argType="string" />
+    </fragment>
+</navigation>

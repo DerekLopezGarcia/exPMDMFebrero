@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">exPMDMFebrero</string>
+    <string name="album_image">album image</string>
+    <string name="favorite_button">favorite button</string>
+    <string name="album_name">Album Name</string>
+    <string name="creation_date">Creation date</string>
+    <string name="album_description">Album description</string>
+    <string name="favorites">Favorites</string>
 </resources>
